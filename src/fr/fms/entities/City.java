@@ -20,8 +20,8 @@ public class City {
 //méthode
 	public void setHabitants(int habitants) {
 		if(habitants < 0 ) 
-			//System.out.println("Le nombre d'habitants ne peut pas être inferieur à 0"); 
-			this.habitants = habitants + getHabitants();
+			System.out.println("Le nombre d'habitants ne peut pas être inferieur à 0"); 
+			this.habitants = habitants;
 		}
 
 //getter et setters
